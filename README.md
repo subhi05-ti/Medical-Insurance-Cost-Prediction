@@ -7,3 +7,6 @@ This project focuses on predicting medical insurance costs for individuals based
 
 ✔ Build a robust machine learning model that predicts individual medical charges.
 ✔ Perform data preprocessing, including handling missing values, encoding categorical variables, and feature scaling.
+✔ Conduct exploratory data analysis (EDA) to understand relationships between features and insurance cost.
+✔ Evaluate multiple ML algorithms such as Linear Regression, Random Forest, XGBoost, and Decision Tree.
+✔ Optimize model performance using techniques like hyperparameter tuning and cross-validation.
