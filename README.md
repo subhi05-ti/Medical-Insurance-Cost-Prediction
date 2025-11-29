@@ -23,3 +23,42 @@ children          -              	Number of dependent children
 smoker            -            	  Whether the individual smokes
 region            -            	  Residential region (southwest, southeast, northwest, northeast)
 charges           -               Medical insurance cost (target variable)
+
+
+🧼 Data Preprocessing Steps
+
+The following preprocessing techniques are applied:
+1.Handling missing values (if any)
+
+2.Encoding categorical variables
+
+  Label Encoding: smoker, sex
+
+  One-Hot Encoding: region
+
+3.Feature scaling (for algorithms sensitive to feature magnitude)
+
+4.Outlier detection using statistical methods
+
+5.Train-test split for model evaluation
+
+
+📈 Exploratory Data Analysis (EDA)
+
+EDA includes:
+
+1.Distribution plots for age, BMI, and charges
+2.Boxplots to examine smoker/non-smoker cost differences
+3.Correlation heatmaps
+5.Region-wise cost analysis
+5.Identifying key drivers influencing insurance charges
+6.Smoking status
+7.Age
+8.BMI
+
+🤖 Machine Learning Models Used    -    Linear Regression
+
+
+🏆 Accuracy Results
+The model got 75% accuracy on "Training data" and 74% accuracy on "Testing data".
+
